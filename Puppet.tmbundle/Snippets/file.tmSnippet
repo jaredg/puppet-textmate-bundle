@@ -9,6 +9,8 @@
 }</string>
 	<key>name</key>
 	<string>file</string>
+	<key>scope</key>
+	<string>source.puppet</string>
 	<key>tabTrigger</key>
 	<string>file</string>
 	<key>uuid</key>

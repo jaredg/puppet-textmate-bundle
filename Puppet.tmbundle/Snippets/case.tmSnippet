@@ -14,6 +14,8 @@
 </string>
 	<key>name</key>
 	<string>case</string>
+	<key>scope</key>
+	<string>source.puppet</string>
 	<key>tabTrigger</key>
 	<string>case</string>
 	<key>uuid</key>

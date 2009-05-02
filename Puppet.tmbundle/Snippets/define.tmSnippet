@@ -13,6 +13,8 @@ define ${1:name} (${2:arguments}) {
 </string>
 	<key>name</key>
 	<string>define</string>
+	<key>scope</key>
+	<string>source.puppet</string>
 	<key>tabTrigger</key>
 	<string>define</string>
 	<key>uuid</key>
