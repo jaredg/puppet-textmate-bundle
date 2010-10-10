@@ -3,10 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>if ${0:variable} {
-	${1:# enter puppet code}
-}
-</string>
+	<string>if ${1:test} {
+	${2:# enter puppet code}
+}$0</string>
 	<key>name</key>
 	<string>if</string>
 	<key>scope</key>

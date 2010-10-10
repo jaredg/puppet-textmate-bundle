@@ -3,10 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>file {
-	"${1:name}":
-		${2:ensure =&gt; file}
-}</string>
+	<string>file { "${1:name}":
+	ensure =&gt; ${2:file},
+}$0</string>
 	<key>name</key>
 	<string>file</string>
 	<key>scope</key>
